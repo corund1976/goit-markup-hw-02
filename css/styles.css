@@ -1,0 +1,207 @@
+:root {
+  /* палитра цветов */
+
+  /* цвета текстов */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hero-and-selection-button-text-color: #ffffff;
+  --logo-color: #000000;
+  /* цвет акцента */
+  --accent-color: #2196f3;
+  /* цвета фонов */
+  --primary-background-color: #ffffff;
+  --hero-and-footer-background-color: #2f303a;
+  --team-and-filter-button-background-color: #f5f4fa;
+  /* цвета рамок */
+  --header-border-color: #ececec;
+  --portfolio-card-border-color: #eeeeee;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+
+  letter-spacing: 0.03em;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.logo .accent {
+  color: var(--accent-color);
+}
+
+/* Navigation */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Header Address */
+.head-addr .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.head-addr .link:hover,
+.head-addr .link:focus {
+  color: var(--accent-color);
+}
+
+/* Section Hero */
+.hero {
+  background-color: var(--hero-and-footer-background-color);
+}
+.hero-title {
+  color: var(--hero-and-selection-button-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-transform: uppercase;
+}
+
+/* Hero Button */
+.hero .button.active {
+  background-color: var(--accent-color);
+  color: var(--hero-and-selection-button-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Button */
+.button {
+  cursor: pointer;
+}
+
+/* Section */
+.section .title {
+  /* font-weight: 700; */
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Section Feature */
+.feature .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
+  /* text-shadow: 2px 2px 4px #000000; */
+}
+
+/* Команда */
+.section.team {
+  background-color: var(--team-and-filter-button-background-color);
+}
+.team .persona {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.team .profession {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--hero-and-footer-background-color);
+}
+.footer .address {
+  color: var(--hero-and-selection-button-text-color);
+
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .address.link:hover,
+.footer .address.link:focus {
+  color: var(--accent-color);
+}
+.footer .logo {
+  color: var(--hero-and-selection-button-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.logo .accent {
+  color: var(--accent-color);
+}
+
+/* Portfolio Filter Button */
+
+.portfolio .button {
+  color: var(--title-text-color);
+  background-color: var(--team-and-filter-button-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--hero-and-selection-button-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Section Portfolio */
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2x;
+  letter-spacing: 0.06em;
+}
+.portfolio .descriptor {
+  color: var(--primary-text-color);
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.87;
+}
