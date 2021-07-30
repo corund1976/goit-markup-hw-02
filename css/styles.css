@@ -121,14 +121,15 @@ body {
 }
 
 /* Section Feature */
+.feature {
+  /* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 .feature .title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
-  /* text-shadow: 2px 2px 4px #000000; */
 }
 
 /* Команда */
